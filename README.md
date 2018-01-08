@@ -1,3 +1,11 @@
+step1: data/myVOC/createFileList.py            create file list
+step2: data/myVOC/labelmap_voc.prototxt  update all the class name
+step3: data/myVOC/createLMDB.py              transform file list to LMDB
+step4: data/myVOC/my_pascal.py                modify param & train a model
+step5: data/myVOC/my_detect.py                test the model
+
+
+-----------------------------------------------------------------------------------------------------------------
 # SSD: Single Shot MultiBox Detector
 
 [![Build Status](https://travis-ci.org/weiliu89/caffe.svg?branch=ssd)](https://travis-ci.org/weiliu89/caffe)
