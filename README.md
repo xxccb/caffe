@@ -1,8 +1,13 @@
-step1: data/myVOC/createFileList.py            create file list
-step2: data/myVOC/labelmap_voc.prototxt  update all the class name
-step3: data/myVOC/createLMDB.py              transform file list to LMDB
-step4: data/myVOC/my_pascal.py                modify param & train a model
-step5: data/myVOC/my_detect.py                test the model
+### step1: create file list
+data/myVOC/createFileList.py  
+### step2: update all the class name
+data/myVOC/labelmap_voc.prototxt  
+### step3: transform file list to LMDB
+data/myVOC/createLMDB.py 
+### step4: modify param & train a model
+data/myVOC/my_pascal.py
+### step5: test the model
+data/myVOC/my_detect.py
 
 
 -----------------------------------------------------------------------------------------------------------------
